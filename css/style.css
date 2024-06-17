@@ -1,0 +1,100 @@
+*:focus {
+    box-shadow: none !important;
+}
+.main-color{
+    background-color: #1e202b !important;
+}
+li a{
+    color: white !important;
+    margin-left: 30px;
+
+}
+.active{
+    color: #009ad6 !important;
+    border: #009ad6 !important;
+}
+#home{
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    height: 352px;
+}
+#home .search-bar{
+    position: relative;
+    top: 100px;
+}
+
+
+.form-control{
+    background-color: #1e202b !important;
+    color: white !important;
+    padding: 20px;
+    border-color: transparent;
+   
+    
+}
+.form-control::placeholder{
+    color: gray !important;   
+}
+
+button{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    width: 120px;
+}
+#weather{
+    background-color: #1e202b;
+    top: 80px;
+}
+.mega{
+    font-size: 98px;
+    font-weight: 600;
+}
+.row{
+    top: -90px;
+}
+.first{
+    background-color: #323544;
+    color: white;
+}
+.first .card-header{
+    background-color: #2d303d !important;
+}
+.second{
+    background-color:#262936;
+    color: white;
+}
+.second .card-header{
+    background-color: #222531 !important;
+}
+.card{
+    padding-left: 0;
+    padding-right: 0;
+}
+.hidden{
+    display: none;
+ 
+}
+footer{
+    background-color: #2d303d;
+}
+.icon-circle {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 5px 7px;
+    background-color: #1e202b;
+}
+  
+.icon-circle i {
+    color: #00b6ff; 
+}
+  
+.icon-circle:hover {
+    background-color: #00b6ff;
+}
+  
+.icon-circle:hover i {
+    color: white; 
+}
+
